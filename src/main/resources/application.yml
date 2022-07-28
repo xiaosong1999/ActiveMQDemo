@@ -1,0 +1,18 @@
+
+server:
+  port: 80
+
+# activemq
+spring:
+  activemq:
+    broker-url: tcp://127.0.0.1:61616
+  data:
+#solr配置
+    solr:
+      host: http://127.0.0.1:8983/solr/
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8849
+  application:
+    name: test
